@@ -1,0 +1,40 @@
+2022-04-12 12:04:32.321  INFO [boot-otel-tempo-provider1,,] 9 --- [           main] i.o.e.BootOtelTempoProvider1Application  : Starting BootOtelTempoProvider1Application v0.0.1-SNAPSHOT using Java 1.8.0_212 on boot-otel-tempo-provider1-55bcd675cc-fl77k with PID 9 (/app/bin/boot-otel-tempo-provider1.jar started by root in /) 
+2022-04-12 12:04:32.327 DEBUG [boot-otel-tempo-provider1,,] 9 --- [           main] i.o.e.BootOtelTempoProvider1Application  : Running with Spring Boot v2.4.2, Spring v5.3.3 
+2022-04-12 12:04:32.327  INFO [boot-otel-tempo-provider1,,] 9 --- [           main] i.o.e.BootOtelTempoProvider1Application  : No active profile set, falling back to default profiles: default 
+2022-04-12 12:04:33.841  INFO [boot-otel-tempo-provider1,,] 9 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+2022-04-12 12:04:33.938  INFO [boot-otel-tempo-provider1,,] 9 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 76 ms. Found 1 JPA repository interfaces. 
+2022-04-12 12:04:35.934  INFO [boot-otel-tempo-provider1,,] 9 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8090 (http) 
+2022-04-12 12:04:35.973  INFO [boot-otel-tempo-provider1,,] 9 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat] 
+2022-04-12 12:04:35.974  INFO [boot-otel-tempo-provider1,,] 9 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41] 
+2022-04-12 12:04:36.101  INFO [boot-otel-tempo-provider1,,] 9 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext 
+2022-04-12 12:04:36.101  INFO [boot-otel-tempo-provider1,,] 9 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3702 ms 
+2022-04-12 12:04:37.431  INFO [boot-otel-tempo-provider1,,] 9 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: provider1] 
+2022-04-12 12:04:37.631  INFO [boot-otel-tempo-provider1,,] 9 --- [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.27.Final 
+2022-04-12 12:04:37.949  INFO [boot-otel-tempo-provider1,,] 9 --- [           main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final} 
+2022-04-12 12:04:38.755  INFO [boot-otel-tempo-provider1,,] 9 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting... 
+2022-04-12 12:04:39.326  INFO [boot-otel-tempo-provider1,,] 9 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed. 
+2022-04-12 12:04:39.522  INFO [boot-otel-tempo-provider1,,] 9 --- [           main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect 
+2022-04-12 12:04:41.716  INFO [boot-otel-tempo-provider1,,] 9 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+2022-04-12 12:04:41.740  INFO [boot-otel-tempo-provider1,,] 9 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'provider1' 
+2022-04-12 12:04:42.911  WARN [boot-otel-tempo-provider1,,] 9 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning 
+2022-04-12 12:04:43.142  INFO [boot-otel-tempo-provider1,,] 9 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor' 
+2022-04-12 12:04:43.878  INFO [boot-otel-tempo-provider1,,] 9 --- [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 3 endpoint(s) beneath base path '/actuator' 
+2022-04-12 12:04:43.973  INFO [boot-otel-tempo-provider1,,] 9 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8090 (http) with context path '' 
+2022-04-12 12:04:43.996  INFO [boot-otel-tempo-provider1,,] 9 --- [           main] i.o.e.BootOtelTempoProvider1Application  : Started BootOtelTempoProvider1Application in 12.882 seconds (JVM running for 19.123) 
+2022-04-12 12:04:54.292  INFO [boot-otel-tempo-provider1,1a2e68a38b683ac6552aaaaf9625674b,e074c761c75adeaa] 9 --- [nio-8090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2022-04-12 12:04:54.296  INFO [boot-otel-tempo-provider1,1a2e68a38b683ac6552aaaaf9625674b,e074c761c75adeaa] 9 --- [nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet' 
+2022-04-12 12:04:54.298  INFO [boot-otel-tempo-provider1,1a2e68a38b683ac6552aaaaf9625674b,e074c761c75adeaa] 9 --- [nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms 
+2022-04-12 12:16:04.948  INFO [boot-otel-tempo-provider1,9cd0d952fbdda84ee3c3c6e8d2b78c97,abc0ecc9db7e3d05] 9 --- [nio-8090-exec-6] i.o.example.flight.FlighController       : processing Request 
+2022-04-12 12:16:04.950  INFO [boot-otel-tempo-provider1,9cd0d952fbdda84ee3c3c6e8d2b78c97,34a583434cdbbb30] 9 --- [nio-8090-exec-6] i.o.example.flight.FlightService         : Doing some work In New span 
+2022-04-12 12:16:09.154  INFO [boot-otel-tempo-provider1,b465e67d92bd966937a2cff3baa187b0,9609001af26396da] 9 --- [nio-8090-exec-8] i.o.example.flight.FlighController       : processing Request 
+2022-04-12 12:16:09.155  INFO [boot-otel-tempo-provider1,b465e67d92bd966937a2cff3baa187b0,d74b3584806fe4d7] 9 --- [nio-8090-exec-8] i.o.example.flight.FlightService         : Doing some work In New span 
+2022-04-12 12:16:10.481  INFO [boot-otel-tempo-provider1,79120937bb255aa4c0e016b2c12a1ae4,5d27ac24877fd783] 9 --- [nio-8090-exec-9] i.o.example.flight.FlighController       : processing Request 
+2022-04-12 12:16:10.482  INFO [boot-otel-tempo-provider1,79120937bb255aa4c0e016b2c12a1ae4,e0048252df6585b4] 9 --- [nio-8090-exec-9] i.o.example.flight.FlightService         : Doing some work In New span 
+2022-04-12 12:32:54.333  INFO [boot-otel-tempo-provider1,6c212b467a45888ae67d371ca20c32ac,9f1c0cc339e99a7a] 9 --- [nio-8090-exec-8] i.o.example.flight.FlighController       : processing Request 
+2022-04-12 12:32:54.333  INFO [boot-otel-tempo-provider1,6c212b467a45888ae67d371ca20c32ac,51476bc40115763d] 9 --- [nio-8090-exec-8] i.o.example.flight.FlightService         : Doing some work In New span 
+2022-04-12 12:33:28.863  INFO [boot-otel-tempo-provider1,524181ac444dbd023871546f20c17ea2,ccccb93649253585] 9 --- [nio-8090-exec-1] i.o.example.flight.FlighController       : processing Request 
+2022-04-12 12:33:28.864  INFO [boot-otel-tempo-provider1,524181ac444dbd023871546f20c17ea2,23f599195fe329ed] 9 --- [nio-8090-exec-1] i.o.example.flight.FlightService         : Doing some work In New span 
+2022-04-12 12:40:37.910  INFO [boot-otel-tempo-provider1,a0c499a799b4c9162231de3aac72742c,982ddb25cab12696] 9 --- [nio-8090-exec-1] i.o.example.flight.FlighController       : processing Request 
+2022-04-12 12:40:37.910  INFO [boot-otel-tempo-provider1,a0c499a799b4c9162231de3aac72742c,ceff50358cab9897] 9 --- [nio-8090-exec-1] i.o.example.flight.FlightService         : Doing some work In New span 
+2022-04-12 12:43:49.345  INFO [boot-otel-tempo-provider1,47383ff5ce3704b09213cbdb3797c472,b30c8799d729467e] 9 --- [nio-8090-exec-6] i.o.example.flight.FlighController       : processing Request 
+2022-04-12 12:43:49.346  INFO [boot-otel-tempo-provider1,47383ff5ce3704b09213cbdb3797c472,8d2d37145b80d9ae] 9 --- [nio-8090-exec-6] i.o.example.flight.FlightService         : Doing some work In New span 

@@ -1,0 +1,43 @@
+2022-04-12 12:07:31.674  INFO [boot-otel-tempo-api,,] 8 --- [           main] i.o.example.BootOtelTempoApiApplication  : Starting BootOtelTempoApiApplication v0.0.1-SNAPSHOT using Java 1.8.0_212 on boot-otel-tempo-api-568dd75ddf-lqmnj with PID 8 (/app/bin/boot-otel-tempo-api.jar started by root in /) 
+2022-04-12 12:07:31.680 DEBUG [boot-otel-tempo-api,,] 8 --- [           main] i.o.example.BootOtelTempoApiApplication  : Running with Spring Boot v2.4.2, Spring v5.3.3 
+2022-04-12 12:07:31.682  INFO [boot-otel-tempo-api,,] 8 --- [           main] i.o.example.BootOtelTempoApiApplication  : No active profile set, falling back to default profiles: default 
+2022-04-12 12:07:34.343  INFO [boot-otel-tempo-api,,] 8 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9080 (http) 
+2022-04-12 12:07:34.399  INFO [boot-otel-tempo-api,,] 8 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat] 
+2022-04-12 12:07:34.399  INFO [boot-otel-tempo-api,,] 8 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41] 
+2022-04-12 12:07:34.547  INFO [boot-otel-tempo-api,,] 8 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext 
+2022-04-12 12:07:34.548  INFO [boot-otel-tempo-api,,] 8 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2772 ms 
+2022-04-12 12:07:35.629  INFO [boot-otel-tempo-api,,] 8 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor' 
+2022-04-12 12:07:36.102  INFO [boot-otel-tempo-api,,] 8 --- [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 3 endpoint(s) beneath base path '/actuator' 
+2022-04-12 12:07:36.347  INFO [boot-otel-tempo-api,,] 8 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9080 (http) with context path '' 
+2022-04-12 12:07:36.373  INFO [boot-otel-tempo-api,,] 8 --- [           main] i.o.example.BootOtelTempoApiApplication  : Started BootOtelTempoApiApplication in 5.974 seconds (JVM running for 12.205) 
+2022-04-12 12:15:55.428  INFO [boot-otel-tempo-api,7504a3dc2e2208494bde42aa44eba0c1,59d35ac904ed3f8c] 8 --- [nio-9080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2022-04-12 12:15:55.429  INFO [boot-otel-tempo-api,7504a3dc2e2208494bde42aa44eba0c1,59d35ac904ed3f8c] 8 --- [nio-9080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet' 
+2022-04-12 12:15:55.430  INFO [boot-otel-tempo-api,7504a3dc2e2208494bde42aa44eba0c1,59d35ac904ed3f8c] 8 --- [nio-9080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms 
+2022-04-12 12:16:04.807  INFO [boot-otel-tempo-api,9cd0d952fbdda84ee3c3c6e8d2b78c97,142a1e24d467da44] 8 --- [nio-9080-exec-3] i.o.example.flight.FlightController      : Before Service Method Call 
+2022-04-12 12:16:04.807  INFO [boot-otel-tempo-api,9cd0d952fbdda84ee3c3c6e8d2b78c97,142a1e24d467da44] 8 --- [nio-9080-exec-3] i.o.example.flight.FlightService         : Getting flights for India 
+2022-04-12 12:16:04.811  INFO [boot-otel-tempo-api,9cd0d952fbdda84ee3c3c6e8d2b78c97,37b79d87f453ad75] 8 --- [nio-9080-exec-3] i.o.example.flight.FlightClient          : Getting Flights from http://boot-otel-tempo-provider1:8090/flights 
+2022-04-12 12:16:05.832  INFO [boot-otel-tempo-api,9cd0d952fbdda84ee3c3c6e8d2b78c97,0fe43b0eea6a5c17] 8 --- [nio-9080-exec-3] i.o.example.flight.FlightService         : Doing some work In New span 
+2022-04-12 12:16:09.145  INFO [boot-otel-tempo-api,b465e67d92bd966937a2cff3baa187b0,ee3e8b14fbb85b5f] 8 --- [nio-9080-exec-4] i.o.example.flight.FlightController      : Before Service Method Call 
+2022-04-12 12:16:09.145  INFO [boot-otel-tempo-api,b465e67d92bd966937a2cff3baa187b0,ee3e8b14fbb85b5f] 8 --- [nio-9080-exec-4] i.o.example.flight.FlightService         : Getting flights for India 
+2022-04-12 12:16:09.146  INFO [boot-otel-tempo-api,b465e67d92bd966937a2cff3baa187b0,d90c27ae64c18238] 8 --- [nio-9080-exec-4] i.o.example.flight.FlightClient          : Getting Flights from http://boot-otel-tempo-provider1:8090/flights 
+2022-04-12 12:16:09.166  INFO [boot-otel-tempo-api,b465e67d92bd966937a2cff3baa187b0,306fe29a193b972c] 8 --- [nio-9080-exec-4] i.o.example.flight.FlightService         : Doing some work In New span 
+2022-04-12 12:16:10.477  INFO [boot-otel-tempo-api,79120937bb255aa4c0e016b2c12a1ae4,7cee69de3be62bd4] 8 --- [nio-9080-exec-5] i.o.example.flight.FlightController      : Before Service Method Call 
+2022-04-12 12:16:10.477  INFO [boot-otel-tempo-api,79120937bb255aa4c0e016b2c12a1ae4,7cee69de3be62bd4] 8 --- [nio-9080-exec-5] i.o.example.flight.FlightService         : Getting flights for India 
+2022-04-12 12:16:10.477  INFO [boot-otel-tempo-api,79120937bb255aa4c0e016b2c12a1ae4,cce3b24bcbbff940] 8 --- [nio-9080-exec-5] i.o.example.flight.FlightClient          : Getting Flights from http://boot-otel-tempo-provider1:8090/flights 
+2022-04-12 12:16:10.487  INFO [boot-otel-tempo-api,79120937bb255aa4c0e016b2c12a1ae4,9f40752e08573524] 8 --- [nio-9080-exec-5] i.o.example.flight.FlightService         : Doing some work In New span 
+2022-04-12 12:32:54.328  INFO [boot-otel-tempo-api,6c212b467a45888ae67d371ca20c32ac,5b7e0ea87470e706] 8 --- [nio-9080-exec-9] i.o.example.flight.FlightController      : Before Service Method Call 
+2022-04-12 12:32:54.329  INFO [boot-otel-tempo-api,6c212b467a45888ae67d371ca20c32ac,5b7e0ea87470e706] 8 --- [nio-9080-exec-9] i.o.example.flight.FlightService         : Getting flights for India 
+2022-04-12 12:32:54.329  INFO [boot-otel-tempo-api,6c212b467a45888ae67d371ca20c32ac,563aa92ae18a481d] 8 --- [nio-9080-exec-9] i.o.example.flight.FlightClient          : Getting Flights from http://boot-otel-tempo-provider1:8090/flights 
+2022-04-12 12:32:54.339  INFO [boot-otel-tempo-api,6c212b467a45888ae67d371ca20c32ac,415a7b3397b09e5a] 8 --- [nio-9080-exec-9] i.o.example.flight.FlightService         : Doing some work In New span 
+2022-04-12 12:33:28.858  INFO [boot-otel-tempo-api,524181ac444dbd023871546f20c17ea2,f6fa820603b67fe7] 8 --- [io-9080-exec-10] i.o.example.flight.FlightController      : Before Service Method Call 
+2022-04-12 12:33:28.859  INFO [boot-otel-tempo-api,524181ac444dbd023871546f20c17ea2,f6fa820603b67fe7] 8 --- [io-9080-exec-10] i.o.example.flight.FlightService         : Getting flights for India 
+2022-04-12 12:33:28.859  INFO [boot-otel-tempo-api,524181ac444dbd023871546f20c17ea2,90edf9191e35d556] 8 --- [io-9080-exec-10] i.o.example.flight.FlightClient          : Getting Flights from http://boot-otel-tempo-provider1:8090/flights 
+2022-04-12 12:33:28.874  INFO [boot-otel-tempo-api,524181ac444dbd023871546f20c17ea2,7ef05bf380d23549] 8 --- [io-9080-exec-10] i.o.example.flight.FlightService         : Doing some work In New span 
+2022-04-12 12:40:37.905  INFO [boot-otel-tempo-api,a0c499a799b4c9162231de3aac72742c,96fbb01016c0de38] 8 --- [nio-9080-exec-3] i.o.example.flight.FlightController      : Before Service Method Call 
+2022-04-12 12:40:37.906  INFO [boot-otel-tempo-api,a0c499a799b4c9162231de3aac72742c,96fbb01016c0de38] 8 --- [nio-9080-exec-3] i.o.example.flight.FlightService         : Getting flights for India 
+2022-04-12 12:40:37.906  INFO [boot-otel-tempo-api,a0c499a799b4c9162231de3aac72742c,08463abc6d8e9721] 8 --- [nio-9080-exec-3] i.o.example.flight.FlightClient          : Getting Flights from http://boot-otel-tempo-provider1:8090/flights 
+2022-04-12 12:40:37.927  INFO [boot-otel-tempo-api,a0c499a799b4c9162231de3aac72742c,2b6d4423a0d84830] 8 --- [nio-9080-exec-3] i.o.example.flight.FlightService         : Doing some work In New span 
+2022-04-12 12:43:49.338  INFO [boot-otel-tempo-api,47383ff5ce3704b09213cbdb3797c472,385d27611809c8c3] 8 --- [nio-9080-exec-7] i.o.example.flight.FlightController      : Before Service Method Call 
+2022-04-12 12:43:49.338  INFO [boot-otel-tempo-api,47383ff5ce3704b09213cbdb3797c472,385d27611809c8c3] 8 --- [nio-9080-exec-7] i.o.example.flight.FlightService         : Getting flights for India 
+2022-04-12 12:43:49.339  INFO [boot-otel-tempo-api,47383ff5ce3704b09213cbdb3797c472,60f88d64894fa7d5] 8 --- [nio-9080-exec-7] i.o.example.flight.FlightClient          : Getting Flights from http://boot-otel-tempo-provider1:8090/flights 
+2022-04-12 12:43:49.357  INFO [boot-otel-tempo-api,47383ff5ce3704b09213cbdb3797c472,ef922625ec62cff3] 8 --- [nio-9080-exec-7] i.o.example.flight.FlightService         : Doing some work In New span 
