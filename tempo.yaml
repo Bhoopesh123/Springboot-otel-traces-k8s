@@ -36,10 +36,10 @@ spec:
       volumes:
         - name: tempo-claim0
           hostPath:
-            path: /root/boot-opentelemetry-tempo/etc/tempo-local.yaml
+            path: /root/Springboot-otel-traces-k8s/etc/tempo-local.yaml
         - name: tempo-claim1
           hostPath:
-            path: /root/boot-opentelemetry-tempo/data/tempo-data
+            path: /root/Springboot-otel-traces-k8s/data/tempo-data
 status: {}
 ---
 apiVersion: v1
