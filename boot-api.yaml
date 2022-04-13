@@ -32,7 +32,7 @@ spec:
       volumes:
         - name: boot-otel-tempo-api-claim0
           hostPath:
-            path: /root/boot-opentelemetry-tempo/data/logs
+            path: /root/Springboot-otel-traces-k8s/data/logs
 status: {}
 ---
 apiVersion: v1
