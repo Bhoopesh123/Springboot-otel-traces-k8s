@@ -42,10 +42,10 @@ spec:
       volumes:
         - name: provider-claim0
           hostPath:
-            path: /root/boot-opentelemetry-tempo//boot-otel-tempo-provider1/db/scripts/init.sql  
+            path: /root/Springboot-otel-traces-k8s/db/scripts/init.sql  
         - name: provider-claim1
           hostPath:
-            path: /root/boot-opentelemetry-tempo/boot-otel-tempo-provider1/db/data
+            path: /root/Springboot-otel-traces-k8s/data
 ---
 apiVersion: v1
 kind: Service
