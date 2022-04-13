@@ -31,10 +31,10 @@ spec:
       volumes:
         - name: promtail-claim0
           hostPath:
-            path: /root/boot-opentelemetry-tempo/etc/promtail-local.yaml
+            path: /root/Springboot-otel-traces-k8s/etc/promtail-local.yaml
         - name: promtail-claim1
           hostPath:
-            path: /root/boot-opentelemetry-tempo/data/logs
+            path: /root/Springboot-otel-traces-k8s/data/logs
 status: {}
 ---
 apiVersion: v1
