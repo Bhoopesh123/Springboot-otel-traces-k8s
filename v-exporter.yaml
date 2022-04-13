@@ -37,13 +37,13 @@ spec:
       volumes:
         - name: volume-exporter-claim0
           hostPath:
-            path: /root/boot-opentelemetry-tempo/data/logs
+            path: /root/Springboot-otel-traces-k8s/data/logs
         - name: volume-exporter-claim1
           hostPath:
-            path: /root/boot-opentelemetry-tempo/data/tempo-data
+            path: /root/Springboot-otel-traces-k8s/data/tempo-data
         - name: volume-exporter-claim2
           hostPath:
-            path: /root/boot-opentelemetry-tempo/data/loki-data
+            path: /root/Springboot-otel-traces-k8s/data/loki-data
 status: {}
 ---
 apiVersion: v1
