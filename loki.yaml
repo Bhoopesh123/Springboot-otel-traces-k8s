@@ -43,10 +43,10 @@ spec:
       volumes:
         - name: loki-claim0
           hostPath:
-            path: /root/boot-opentelemetry-tempo/etc/loki-local.yaml
+            path: /root/Springboot-otel-traces-k8s/etc/loki-local.yaml
         - name: loki-claim1
           hostPath:
-            path: /root/boot-opentelemetry-tempo/data/loki-data
+            path: /root/Springboot-otel-traces-k8s/data/loki-data
 ---
 apiVersion: v1
 kind: Service
