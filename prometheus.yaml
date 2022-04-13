@@ -32,7 +32,7 @@ spec:
       volumes:
         - name: prometheus-claim0
           hostPath:
-            path: /root/boot-opentelemetry-tempo/etc/prometheus.yaml
+            path: /root/Springboot-otel-traces-k8s/etc/prometheus.yaml
               
 status: {}
 ---
