@@ -42,13 +42,13 @@ spec:
       volumes:
         - name: grafana-claim0
           hostPath:
-            path: /root/boot-opentelemetry-tempo/data/grafana-data/datasources 
+            path: /root/Springboot-otel-traces-k8s/data/grafana-data/datasources 
         - name: grafana-claim1
           hostPath:
-            path: /root/boot-opentelemetry-tempo/data/grafana-data/dashboards-provisioning
+            path: /root/Springboot-otel-traces-k8s/data/grafana-data/dashboards-provisioning
         - name: grafana-claim2
           hostPath:
-            path: /root/boot-opentelemetry-tempo/data/grafana-data/dashboards         
+            path: /root/Springboot-otel-traces-k8s/data/grafana-data/dashboards         
 ---
 apiVersion: v1
 kind: Service
