@@ -1,1 +1,1 @@
-# Springboot-otel-traces-k8s
+# Springboot-otel-traces-tempo-k8s
